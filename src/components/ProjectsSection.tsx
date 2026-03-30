@@ -1,21 +1,25 @@
+import { Link } from "react-router-dom";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 
 const projects = [
   {
+    slug: "analytics-dashboard",
     title: "Analytics Dashboard",
     description: "A real-time analytics platform built with React, D3.js, and WebSockets. Features live data streaming, custom chart builders, and role-based access control.",
     tags: ["React", "D3.js", "WebSocket", "PostgreSQL"],
     image: project1,
   },
   {
+    slug: "ecommerce-platform",
     title: "E-Commerce Platform",
     description: "Full-stack marketplace with headless CMS, Stripe payments, and server-side rendering. Achieved 98+ Lighthouse score across all metrics.",
     tags: ["Next.js", "Stripe", "Sanity", "Vercel"],
     image: project2,
   },
   {
+    slug: "mobile-app-suite",
     title: "Mobile App Suite",
     description: "Cross-platform mobile application with offline-first architecture, push notifications, and biometric authentication. 50k+ active users.",
     tags: ["React Native", "Firebase", "TypeScript"],
@@ -36,7 +40,8 @@ const ProjectsSection = () => {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
-            <div
+            <Link
+              to={`/project/${project.slug}`}
               key={project.title}
               className="group overflow-hidden rounded-lg border border-border bg-card transition-all duration-300 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5"
             >
@@ -61,7 +66,7 @@ const ProjectsSection = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
