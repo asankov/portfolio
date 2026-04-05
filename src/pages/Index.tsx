@@ -13,9 +13,32 @@ import SkillsSection from "@/components/SkillsSection";
 import ContactSection from "@/components/ContactSection";
 import SideNav from "@/components/SideNav";
 
+const sectionIds = [
+  "home",
+  "about",
+  "projects",
+  "cast-ai",
+  "vmware-carbon-black",
+  "docker",
+  "paysafe",
+  "kiwi-tcms",
+  "public-speaking",
+  "personal-projects",
+  "skills",
+  "contact",
+];
+
 const Index = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeSection, setActiveSection] = useState(0);
+
+  // Scroll to hash on initial load
+  useEffect(() => {
+    const hash = window.location.hash.slice(1);
+    if (!hash) return;
+    const el = document.getElementById(hash);
+    if (el) el.scrollIntoView({ behavior: "auto" });
+  }, []);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -32,7 +55,6 @@ const Index = () => {
             intersectingRatios.set(index, entry.intersectionRatio);
           }
         });
-        // Pick the section with the highest visible ratio
         let maxRatio = 0;
         let maxIndex = 0;
         intersectingRatios.forEach((ratio, index) => {
@@ -41,7 +63,14 @@ const Index = () => {
             maxIndex = index;
           }
         });
-        if (maxRatio > 0) setActiveSection(maxIndex);
+        if (maxRatio > 0) {
+          setActiveSection(maxIndex);
+          const id = sectionIds[maxIndex];
+          if (id) {
+            const hash = id === "home" ? "" : `#${id}`;
+            window.history.replaceState(null, "", `/${hash}`);
+          }
+        }
       },
       { root: container, threshold: Array.from({ length: 21 }, (_, i) => i / 20) }
     );

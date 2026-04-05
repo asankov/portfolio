@@ -19,7 +19,7 @@ const skillCategories = [
 
 const SkillsSection = () => {
   return (
-    <section className="snap-section grid-bg flex items-center justify-center px-6">
+    <section id="skills" className="snap-section grid-bg flex items-center justify-center px-6">
       <div className="mx-auto max-w-6xl text-center">
         <p className="mb-2 font-mono text-xs tracking-widest text-primary uppercase">
           // tech stack

@@ -1,6 +1,6 @@
 const ContactSection = () => {
   return (
-    <section className="snap-section flex items-center justify-center px-6">
+    <section id="contact" className="snap-section flex items-center justify-center px-6">
       <div className="mx-auto max-w-2xl text-center">
         <p className="mb-2 font-mono text-xs tracking-widest text-primary uppercase">
           // get in touch

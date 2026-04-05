@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section className="snap-section grid-bg flex items-center justify-center px-6">
+    <section id="about" className="snap-section grid-bg flex items-center justify-center px-6">
       <div className="mx-auto grid max-w-6xl gap-16 lg:grid-cols-2 lg:items-center">
         {/* Left: Terminal-style card */}
         <div className="glow-border overflow-hidden rounded-lg border border-border bg-card">

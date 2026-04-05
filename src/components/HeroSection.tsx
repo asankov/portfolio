@@ -2,7 +2,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="snap-section relative flex items-center justify-center overflow-hidden">
+    <section id="home" className="snap-section relative flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img src={heroBg} alt="" className="h-full w-full object-cover opacity-40" width={1920} height={1080} />
