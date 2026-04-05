@@ -33,7 +33,7 @@ const CastAISection = () => {
               {
                 type: "Technical",
                 problem: "Processing big amounts of data in real-time to ensure timely detection of anomalies.",
-                solution: "Event-driven architecture and eventual consistency, parallelize as much of the work as possible to enable quick scalling (both vertical and horizontal)",
+                solution: "Event-driven architecture and eventual consistency, parallelize as much of the work as possible to enable quick scaling (both vertical and horizontal)",
               },
               {
                 type: "Technical",
@@ -59,11 +59,11 @@ const CastAISection = () => {
             {[
               {
                 what: "Grew to Staff Engineer",
-                why: "Coming into the company as a Senior Engineer with experience from a similar product, expectations were alway high towards me. I managed to fulfil them and deserve the Staff Engineer title which gave me even more responsibilities.",
+                why: "Coming into the company as a Senior Engineer with experience from a similar product, expectations were always high towards me. I managed to fulfil them and deserve the Staff Engineer title which gave me even more responsibilities.",
               },
               {
                 what: "Learned from failure",
-                why: "At the end, the product was not sustainable, so it went into maintanence mode. We learned valuable lessons from this experience, and I believe had we done some things differently, we outcome might have been different as well.",
+                why: "At the end, the product was not sustainable, so it went into maintenance mode. We learned valuable lessons from this experience, and I believe had we done some things differently, the outcome might have been different as well.",
               },
             ].map(({ what, why }, i) => (
               <div key={i} className="py-4">
@@ -122,12 +122,12 @@ const CastAISection = () => {
               {
                 type: "Technical",
                 problem: "Implementing good user-experience around the installation and configuration of the product",
-                solution: "By working with UX and customers to make sure that everything we do makes sense to the end user. Sometimes we defer from collecting a user input we need until the last moment we need it, to provent having a huge setup page with 10s of inputs.",
+                solution: "By working with UX and customers to make sure that everything we do makes sense to the end user. Sometimes we defer from collecting a user input we need until the last moment we need it, to prevent having a huge setup page with numerous inputs.",
               },
               {
                 type: "Non-Technical",
                 problem: "Dealing with people's scepticism about AI automation.",
-                solution: "By being realistic about what can do done and what now. We tried to never oversell the product. The main idea was always that the human is still in control, and this is an AI companion, not a replacement.",
+                solution: "By being realistic about what can be done and what cannot. We tried to never oversell the product. The main idea was always that the human is still in control, and this is an AI companion, not a replacement.",
               },
             ].map(({ type, problem, solution }, i) => (
               <div key={i} className="py-4">

@@ -13,7 +13,7 @@ const DockerSection = () => {
 
           <p>At that time, Containers and Kubernetes were getting quite popular and luckily for me, Docker were opening an office in Bulgaria.</p>
 
-          <p>Unfortunately, Docker EE was acquired a few months after I joined and a lot of things changes afterwards. After a while it was obvious that all products are in maintenance mode, so I left.</p>
+          <p>Unfortunately, Docker EE was acquired a few months after I joined and a lot of things changed afterwards. After a while it was obvious that all products are in maintenance mode, so I left.</p>
           <h3 className="text-xl font-bold text-foreground">The Job</h3>
 
           <ul className="list-disc pl-6 space-y-1">
@@ -35,7 +35,7 @@ const DockerSection = () => {
               {
                 type: "Non-Technical",
                 problem: "Working on a distributed team with people I did not know",
-                solution: "Try to get to know the people, always assume good intentions and be emphatic.",
+                solution: "Try to get to know the people, always assume good intentions and be empathetic.",
               },
             ].map(({ type, problem, solution }, i) => (
               <div key={i} className="py-4">
@@ -52,7 +52,7 @@ const DockerSection = () => {
             {[
               {
                 what: "Joined my dream company",
-                why: "I had started learning about container a few months before, so joining the company that invented containers as they are today, was a dream come true at the time",
+                why: "I had started learning about containers a few months before, so joining the company that invented containers as they are today, was a dream come true at the time",
               },
               {
                 what: "Navigating hard times",

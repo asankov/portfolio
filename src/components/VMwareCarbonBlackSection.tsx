@@ -13,7 +13,7 @@ const VMwareCarbonBlackSection = () => {
             Joined VMware Carbon Black in June 2020.
           </p>
           <p>
-            By that time it was obvious that Mirantis has put the Docker Enterprise products I was working on in maintenance mode and there was not much more the gained from staying at that job.
+            By that time it was obvious that Mirantis had put the Docker Enterprise products I was working on in maintenance mode and there was not much more to be gained from staying at that job.
           </p>
           <p>
             I still wanted to stay in the Container/Kubernetes ecosystem and VMware Carbon Black was a good choice, because they had just acquired Octarine - a Kubernetes Security startup and were looking for people with Kubernetes experience.
@@ -44,7 +44,7 @@ const VMwareCarbonBlackSection = () => {
               {
                 type: "Non-Technical",
                 problem: "Navigate a big and bureaucratic org such as VMware",
-                solution: "For some things, you just need to get used to them. Others you learn to manage in a way, that it's annoying, but atleast your work is not blocked by them.",
+                solution: "For some things, you just need to get used to them. Others you learn to manage in a way that it's annoying, but at least your work is not blocked by them.",
               },
             ].map(({ type, problem, solution }, i) => (
               <div key={i} className="py-4">

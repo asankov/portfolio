@@ -9,7 +9,7 @@ const career = [
     description: (
       <>
         <p>Part of the Security Product team - building software for securing Kubernetes clusters from supply chain to runtime.</p>
-        <p>Part of the APA team — building autonomous AI agents that perform operations that otherwise human would do.</p>
+        <p>Part of the APA team — building autonomous AI agents that perform operations that would otherwise require human intervention.</p>
       </>
     ),
     tags: ["Go", "Python", "Kubernetes", "AI", "GCP", "Distributed Systems", "Event-driven architecture", "PostgreSQL", "Clickhouse"],
@@ -33,13 +33,13 @@ const career = [
   },
   {
     company: "Docker / Mirantis",
-    role: "Sofware Engineer",
+    role: "Software Engineer",
     period: "August 2019 - June 2020",
     description: (
       <>
         <p>Worked on various projects, part of the Docker Enterprise Stack.</p>
 
-        <p>The Docker Enterprise division was acquired by Mirantis in November 2019, lef the company in June when it was evident that the products were in maintanence mode already.</p>
+        <p>The Docker Enterprise division was acquired by Mirantis in November 2019. Left the company in June when it was evident that the products were already in maintenance mode.</p>
       </>
     ),
     tags: ["Go", "Kubernetes", "AWS", "Distributed Systems", "PostgreSQL"],

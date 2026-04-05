@@ -64,7 +64,7 @@ const PaysafeSection = () => {
               },
               {
                 what: "Learned the tech stack really well",
-                why: "I was able to focus on learning the tech stack really well, and after I few months I was able to understand in good depth how Spring Boot worked, how it autowired dependencies, how it handled routing, etc. I was also something of the IntelliJ-guru on the team.",
+                why: "I was able to focus on learning the tech stack really well, and after a few months I was able to understand in good depth how Spring Boot worked, how it autowired dependencies, how it handled routing, etc. I was also considered the IntelliJ expert on the team.",
               },
             ].map(({ what, why }, i) => (
               <div key={i} className="py-4">

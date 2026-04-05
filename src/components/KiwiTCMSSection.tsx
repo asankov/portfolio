@@ -35,7 +35,7 @@ const KiwiTCMSSection = () => {
         </div>
 
         <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
-          <p>Joined the project as a contributer after an invite by a friend, who had started maintaining the project.</p>
+          <p>Joined the project as a contributor after an invite by a friend, who had started maintaining the project.</p>
 
           <p>This was in the beginning of my career, so I joined it to get experience working on a real project.</p>
 
@@ -54,7 +54,7 @@ const KiwiTCMSSection = () => {
             {[
               {
                 what: "Worked on a real project that delivers real value",
-                why: "Most personal open-source projects are just experiments and are almost never used, even by their authors. This one had real users from Day 1, so every new feature of fix delivered value to someone, and every bug introduces means someone would get annoyed.",
+                why: "Most personal open-source projects are just experiments and are almost never used, even by their authors. This one had real users from Day 1, so every new feature or fix delivered value to someone, and every bug introduced meant someone would get annoyed.",
               },
               {
                 what: "Visited conferences to represent the project",
