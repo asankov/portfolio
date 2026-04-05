@@ -35,7 +35,11 @@ const projects = [
   {
     name: "This Site",
     description: "This portfolio website.",
-    links: [],
+    links: [
+      { label: "GitHub", href: "https://github.com/asankov/portfolio" },
+      { label: "Website", href: "https://portfolio.asankov.dev/" },
+
+    ],
   },
 ];
 
