@@ -1,22 +1,26 @@
 const skillCategories = [
   {
-    label: "Frontend",
-    skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Framer Motion"],
+    label: "Backend",
+    skills: ["Go", "Python", "Java", "JavaScript/TypeScript"],
   },
   {
-    label: "Backend",
-    skills: ["Node.js", "Python", "GraphQL", "REST APIs", "PostgreSQL", "Redis"],
+    label: "AI",
+    skills: ["LLMs", "RAG", "MCP", "Tools", "OpenAI", "Claude", "Gemini"],
+  },
+  {
+    label: "Frontend",
+    skills: ["React", "Angular", "JavaScript/TypeScript", "Tailwind CSS"],
   },
   {
     label: "DevOps & Tools",
-    skills: ["AWS", "Docker", "CI/CD", "Git", "Terraform", "Monitoring"],
+    skills: ["Kubernetes", "Docker", "AWS", "GCP", "Azure", "ArgoCD", "Terraform"],
   },
 ];
 
 const SkillsSection = () => {
   return (
     <section className="snap-section grid-bg flex items-center justify-center px-6">
-      <div className="mx-auto max-w-4xl text-center">
+      <div className="mx-auto max-w-6xl text-center">
         <p className="mb-2 font-mono text-xs tracking-widest text-primary uppercase">
           // tech stack
         </p>
@@ -24,7 +28,7 @@ const SkillsSection = () => {
           Skills & Technologies
         </h2>
 
-        <div className="grid gap-10 md:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-4">
           {skillCategories.map((cat) => (
             <div key={cat.label}>
               <h3 className="mb-6 font-mono text-sm font-semibold tracking-wider text-primary">

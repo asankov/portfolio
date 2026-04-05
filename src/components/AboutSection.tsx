@@ -12,11 +12,11 @@ const AboutSection = () => {
           </div>
           <div className="p-6 font-mono text-sm leading-relaxed text-secondary-foreground">
             <p><span className="text-primary">const</span> engineer = {"{"}</p>
-            <p className="pl-4"><span className="text-primary">name</span>: <span className="text-green-400">"John Doe"</span>,</p>
-            <p className="pl-4"><span className="text-primary">role</span>: <span className="text-green-400">"Senior Web Engineer"</span>,</p>
-            <p className="pl-4"><span className="text-primary">location</span>: <span className="text-green-400">"San Francisco, CA"</span>,</p>
-            <p className="pl-4"><span className="text-primary">experience</span>: <span className="text-orange-400">8</span>,</p>
-            <p className="pl-4"><span className="text-primary">passion</span>: <span className="text-green-400">"Crafting pixel-perfect UIs"</span>,</p>
+            <p className="pl-4"><span className="text-primary">name</span>: <span className="text-green-400">"Anton Sankov"</span>,</p>
+            <p className="pl-4"><span className="text-primary">role</span>: <span className="text-green-400">"Staff AI Engineer"</span>,</p>
+            <p className="pl-4"><span className="text-primary">focus</span>: [<span className="text-green-400">"AI"</span>, <span className="text-green-400">"Distributed Systems"</span>, <span className="text-green-400">"Kubernetes"</span>],</p>
+            <p className="pl-4"><span className="text-primary">languages</span>: [<span className="text-green-400">"Go"</span>, <span className="text-green-400">"Python"</span>, <span className="text-green-400">"JS/TS"</span>],</p>
+            <p className="pl-4"><span className="text-primary">openSource</span>: <span className="text-orange-400">true</span>,</p>
             <p>{"};"}</p>
           </div>
         </div>
@@ -27,17 +27,16 @@ const AboutSection = () => {
             &lt;about&gt;
           </p>
           <h2 className="mb-6 text-3xl font-bold text-foreground sm:text-4xl">
-            Engineering the web,<br />one component at a time.
+            Building systems that scale,<br />from cluster to model.
           </h2>
           <p className="mb-4 leading-relaxed text-muted-foreground">
-            With 8+ years of experience in web development, I specialize in building 
-            high-performance applications that scale. From startup MVPs to enterprise 
-            platforms, I bring ideas to life with clean code and thoughtful architecture.
+            I'm a Staff AI Engineer with years of experience designing and operating
+            distributed systems at scale. I work primarily in Go and Python, building
+            infrastructure for Kubernetes-native environments and production AI workloads.
           </p>
           <p className="leading-relaxed text-muted-foreground">
-            I'm passionate about developer experience, design systems, and pushing 
-            the boundaries of what's possible in the browser. When I'm not coding, 
-            you'll find me contributing to open source or speaking at meetups.
+            Outside of work I contribute to open source — including the Kiwi TCMS project —
+            and speak at conferences on topics like Go, cloud-native security, and Kubernetes.
           </p>
           <p className="mt-6 font-mono text-xs tracking-widest text-primary uppercase">
             &lt;/about&gt;

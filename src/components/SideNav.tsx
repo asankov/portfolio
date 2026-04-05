@@ -3,7 +3,7 @@ interface SideNavProps {
   onNavigate: (index: number) => void;
 }
 
-const sections = ["Home", "About", "Projects", "Skills", "Contact"];
+const sections = ["Home", "About", "Projects", "Cast AI", "VMware Carbon Black", "Docker / Mirantis", "Paysafe", "Kiwi TCMS", "Public Speaking", "Personal Projects", "Skills", "Contact"];
 
 const SideNav = ({ activeSection, onNavigate }: SideNavProps) => {
   return (

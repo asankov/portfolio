@@ -15,16 +15,17 @@ const HeroSection = () => {
           // hello world
         </p>
         <h1 className="mb-6 text-5xl font-bold tracking-tight text-foreground sm:text-7xl lg:text-8xl glow-text">
-          John Doe
+          Anton Sankov
         </h1>
-        <p className="mx-auto max-w-xl text-lg text-muted-foreground sm:text-xl">
-          Web Engineer — Building fast, accessible, and beautiful digital experiences
+        <p className="mx-auto max-w-xl text-xl text-muted-foreground sm:text-2xl">
+          Staff AI Engineer, building reliable distributed systems and production-grade AI
         </p>
-        <div className="mt-10 flex items-center justify-center gap-4 font-mono text-xs text-muted-foreground">
-          <span className="rounded border border-border px-3 py-1">React</span>
-          <span className="rounded border border-border px-3 py-1">TypeScript</span>
-          <span className="rounded border border-border px-3 py-1">Node.js</span>
-          <span className="rounded border border-border px-3 py-1">AWS</span>
+        <div className="mt-10 flex items-center justify-center gap-4 font-mono text-xs text-foreground">
+          <span className="rounded border border-foreground/40 px-3 py-1">Go</span>
+          <span className="rounded border border-foreground/40 px-3 py-1">Python</span>
+          <span className="rounded border border-foreground/40 px-3 py-1">Kubernetes</span>
+          <span className="rounded border border-foreground/40 px-3 py-1">Distributed Systems</span>
+          <span className="rounded border border-foreground/40 px-3 py-1">AI Engineering</span>
         </div>
 
         {/* Scroll indicator */}
