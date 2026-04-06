@@ -38,7 +38,7 @@ const CastAISection = () => {
               {
                 type: "Technical",
                 problem: "Storing these same big amounts of data and being able to serve them in a fast and reliable way.",
-                solution: "Good schema design and indexing, database partitioning",
+                solution: "Good schema design and indexing, database partitioning and sharding",
               },
               {
                 type: "Non-Technical",
